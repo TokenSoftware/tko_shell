@@ -6,7 +6,7 @@ Install_C(){
 yum install -y gcc make gcc-c++ automake lrzsz openssl-devel zlib-* bzip2-* readline* zlib-* bzip2-* git nmap unzip wget lsof xz net-tools
 cd /opt/
 
-###可以使用官网3.0.4包
+###可以使用官网3.0.4包 具体请看gitlab 官网
 
 cat >>/etc/profile<<EOF
 export GOROOT=/opt/go

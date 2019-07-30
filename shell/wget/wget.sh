@@ -1,10 +1,6 @@
 #!/bin/bash
 ## storm 2016-06-28
-## http://www.aqzt.com
-##email: ppabc@qq.com
-##robert yu
-##centos 6
-##wget实现断点下载整个文件目录
+
 
 wget -t 0 -T 120 -np -c -r http://xxx.xxx.com/xxx
 wget -t 0 -T 120 -np -c -r ftp://xxx:xxx@xxx.com/xxx
