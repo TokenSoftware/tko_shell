@@ -1,0 +1,50 @@
+The name of the submit revised
+
+# --------------
+# Please enter the commit message for your changes. Everything below
+# this paragraph is ignored, and an empty message aborts the commit.
+# Just close the window to accept your message.
+diff --git a/codis/start_3.0.4.sh b/codis/start_3.0.4.sh
+index bd113d4..42d992b 100755
+--- a/codis/start_3.0.4.sh
++++ b/codis/start_3.0.4.sh
+@@ -6,7 +6,7 @@ Install_C(){
+ yum install -y gcc make gcc-c++ automake lrzsz openssl-devel zlib-* bzip2-* readline* zlib-* bzip2-* git nmap unzip wget lsof xz net-tools
+ cd /opt/
+ 
+-###可以使用官网3.0.4包
++###可以使用官网3.0.4包 具体请看gitlab 官网
+ 
+ cat >>/etc/profile<<EOF
+ export GOROOT=/opt/go
+diff --git a/kjyw.code-workspace b/kjyw.code-workspace
+new file mode 100644
+index 0000000..876a149
+--- /dev/null
++++ b/kjyw.code-workspace
+@@ -0,0 +1,8 @@
++{
++	"folders": [
++		{
++			"path": "."
++		}
++	],
++	"settings": {}
++}
+\ No newline at end of file
+diff --git a/shell/wget/wget.sh b/shell/wget/wget.sh
+index 650e78e..0eac162 100644
+--- a/shell/wget/wget.sh
++++ b/shell/wget/wget.sh
+@@ -1,10 +1,6 @@
+ #!/bin/bash
+ ## storm 2016-06-28
+-## http://www.aqzt.com
+-##email: ppabc@qq.com
+-##robert yu
+-##centos 6
+-##wget实现断点下载整个文件目录
++
+ 
+ wget -t 0 -T 120 -np -c -r http://xxx.xxx.com/xxx
+ wget -t 0 -T 120 -np -c -r ftp://xxx:xxx@xxx.com/xxx
